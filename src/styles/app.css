@@ -12,5 +12,24 @@ Defaults
 
 html {
     font-family: Bicyclette, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 26px;
+}
+
+.header {
+    background-image: linear-gradient(135deg, #e71897 0%, #3e4ba7 100%);
+}
+
+.header-middle {
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 18px;
+    }
 }
