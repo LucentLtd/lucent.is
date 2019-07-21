@@ -110,6 +110,11 @@ html {
     transform: translate(1px, 1px);
 }
 
+::selection {
+    background: #FE00AE;
+    color: white;
+}
+
 @media (max-width: 640px) {
     html {
         font-size: 22px;
