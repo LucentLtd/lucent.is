@@ -119,7 +119,7 @@ const Index = ({}) => {
                         Message
                     </label>
                     <textarea
-                        className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
+                        className="border h-24 rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
                         id="message"
                         type="message"
                         name="message"
