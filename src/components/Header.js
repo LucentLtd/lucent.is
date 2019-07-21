@@ -6,16 +6,16 @@ class Header extends React.Component {
     render() {
         return (
             <header className="h-16 header flex flex-col justify-center text-white">
-                <div className="container mx-auto">
+                <div className="container max-w-2xl mx-auto">
                     <div className="flex justify-between">
-                        <Link className="w-1/2">
+                        <Link className="">
                             <Image
                                 className="w-10 mx-2"
                                 src="logo-reverse.png"
                                 to="/"
                             />
                         </Link>
-                        <nav className="w-1/2 flex justify-end">
+                        <nav className="flex justify-end">
                             <Link
                                 className="hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
                                 to="#mission"
@@ -36,9 +36,9 @@ class Header extends React.Component {
                             </Link>
                             <Link
                                 className="hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
-                                to="#projects"
+                                to="#contact"
                             >
-                                Projects
+                                Contact
                             </Link>
                         </nav>
                     </div>
