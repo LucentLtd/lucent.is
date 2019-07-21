@@ -76,7 +76,14 @@ const Index = ({}) => {
                 Lorem sunt dolor velit sint.
             </p>
             <h2 id="contact">Contact Us</h2>
-            <form name="contact" netlify>
+            <form
+                name="contact"
+                method="post"
+                netlify
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+            >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="flex">
                     <div className="w-1/2 mr-2">
                         <label className="block text-sm mb-2" for="name">
