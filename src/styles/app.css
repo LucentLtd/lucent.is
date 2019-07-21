@@ -82,6 +82,7 @@ em {
 html {
     font-family: Bicyclette, Helvetica, sans-serif;
     font-size: 26px;
+    color: #1A1A1A;
 }
 .site {
     display: flex;
