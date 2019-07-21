@@ -93,6 +93,7 @@ const Index = ({}) => {
                         <input
                             className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
                             id="name"
+                            name="name"
                             type="name"
                             placeholder="Jane"
                             required
@@ -105,6 +106,7 @@ const Index = ({}) => {
                         <input
                             className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
                             id="email"
+                            name="email"
                             type="email"
                             placeholder="jane@example.com"
                             required
@@ -119,6 +121,7 @@ const Index = ({}) => {
                         className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
                         id="message"
                         type="message"
+                        name="message"
                         placeholder="Hi, I'd like to talk to you about something!"
                         required
                     />
