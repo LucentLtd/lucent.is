@@ -77,8 +77,9 @@ const Index = ({}) => {
             </p>
             <h2 id="contact">Contact Us</h2>
             <form
+                action="/message-thanks"
                 name="contact"
-                method="post"
+                method="POST"
                 netlify
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
@@ -87,7 +88,7 @@ const Index = ({}) => {
                 <div className="flex">
                     <div className="w-1/2 mr-2">
                         <label className="block text-sm mb-2" for="name">
-                            Name
+                            Your Name
                         </label>
                         <input
                             className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
@@ -99,7 +100,7 @@ const Index = ({}) => {
                     </div>
                     <div className="w-1/2">
                         <label className="block text-sm mb-2" for="email">
-                            Email
+                            Your Email
                         </label>
                         <input
                             className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
@@ -118,7 +119,7 @@ const Index = ({}) => {
                         className="border rounded w-full py-2 px-3 mb-3 font-light leading-tight focus:outline-none"
                         id="message"
                         type="message"
-                        placeholder="Hi! I'd like to talk to you about something."
+                        placeholder="Hi, I'd like to talk to you about something!"
                         required
                     />
                 </div>

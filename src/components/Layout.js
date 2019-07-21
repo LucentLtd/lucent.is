@@ -11,12 +11,12 @@ class Layout extends React.Component {
     render() {
         const { children } = this.props;
         return (
-            <div className="subpixel-antialiased">
+            <div className="subpixel-antialiased site">
                 <Helmet>
                     <script src="/js/fathom.js" />
                 </Helmet>
                 <Header />
-                <main className="container max-w-2xl mx-auto  py-8">
+                <main className="container max-w-2xl mx-auto py-4 site-content">
                     <div className="mx-2">{children}</div>
                 </main>
                 <Footer />

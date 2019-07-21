@@ -25,12 +25,13 @@
     /* font-style: bold; */
 }
 
-/*
-Defaults
-*/
-
 .bg-lucent-blue {
-    background-color: #1606FD;
+    background-color: #1606fd;
+}
+
+a {
+    color: #1606fd;
+    text-decoration: underline;
 }
 
 p {
@@ -64,14 +65,23 @@ h4 {
     @apply mb-2 !important;
 }
 
-strong, em {
+strong,
+em {
     font-weight: 600;
 }
-
 
 html {
     font-family: Bicyclette, Helvetica, sans-serif;
     font-size: 26px;
+}
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
 }
 
 .header {
