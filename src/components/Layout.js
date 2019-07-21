@@ -18,8 +18,8 @@ class Layout extends React.Component {
                     {/* TODO: keywords, description */}
                 </Helmet>
                 <Header />
-                <main className="container max-w-2xl mx-auto py-4 site-content">
-                    <div className="mx-2">{children}</div>
+                <main className="container max-w-2xl mx-auto py-4 site-content px-3">
+                    <div className="">{children}</div>
                 </main>
                 <Footer />
             </div>

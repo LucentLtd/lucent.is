@@ -5,10 +5,10 @@ import Image from "./Image";
 class Header extends React.Component {
     render() {
         return (
-            <footer className="h-32 bg-gray-100 flex flex-col justify-center" >
+            <footer className="h-32 bg-gray-100 flex flex-col justify-center px-3" >
                 <Link className="mx-auto">
                     <Image
-                        className="w-32 mx-2"
+                        className="w-32"
                         src="lucent-logo-bk.png"
                         to="/"
                     />
