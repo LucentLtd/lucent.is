@@ -7,7 +7,8 @@ import Image from "../components/Image";
 const Index = ({}) => {
     return (
         <Layout>
-            <h1 id="mission">Lucent Enterprises Ltd.</h1>
+            <h1 className="visuallyhidden">Lucent Enterprises Ltd.</h1>
+            <h2 id="mission">Our Mission</h2>
             <p>
                 Labore do anim in consectetur do magna proident ex culpa enim
                 reprehenderit aute officia elit. Aute laboris nisi duis elit
