@@ -21,7 +21,6 @@ const Index = ({}) => {
                 occaecat elit pariatur dolore aute adipisicing reprehenderit.
                 Minim ad ex irure minim aute nostrud incididunt officia sunt.
             </p>
-
             <h2 id="values">Our Values</h2>
             <p>
                 Consequat dolore nisi in consectetur cupidatat. Laborum ea
@@ -42,9 +41,10 @@ const Index = ({}) => {
                 commodo.
             </p>
             <h2 id="people">Who We Are</h2>
+            <h3>Linley Faulkner</h3>
             <p>
                 <Image
-                    className="w-32 mt-1 mr-3 mb-3 rounded float-left"
+                    className="w-32 mt-1 mr-3 mb-3 rounded float-left shadow"
                     src="linley.jpg"
                 />
                 Sint anim ullamco irure sit magna aliqua laborum ut dolore.
@@ -59,9 +59,10 @@ const Index = ({}) => {
                 Excepteur voluptate excepteur eu fugiat sint incididunt sint
                 Lorem sunt dolor velit sint.
             </p>
+            <h3>Nicholas Rempel</h3>
             <p>
                 <Image
-                    className="w-32 mt-1 ml-3 mb-3 rounded float-right"
+                    className="w-32 mt-1 ml-3 mb-3 rounded float-right shadow"
                     src="nick.jpg"
                 />
                 Sint anim ullamco irure sit magna aliqua laborum ut dolore.
@@ -77,7 +78,16 @@ const Index = ({}) => {
                 Lorem sunt dolor velit sint.
             </p>
             <h2 id="contact">Contact Us</h2>
+            <p>
+                You can send us a text or leave a message toll-free at{" "}
+                <a href="tel:+18887607611">1-888-760-7611</a> or you can
+                contact us by email at{" "}
+                <a href="mailto:info@lucent.is">info@lucent.is</a> or simply by
+                filling out the form below.
+            </p>
+
             <form
+                className="mb-12"
                 action="/message-thanks"
                 name="contact"
                 method="POST"
@@ -129,7 +139,7 @@ const Index = ({}) => {
                 </div>
                 <div className="flex items-center justify-between">
                     <button
-                        className="bg-lucent-blue text-white font-bold py-2 px-4 rounded focus:outline-none"
+                        className="shadow submit-button uppercase font-light text-white py-2 px-4 rounded focus:outline-none"
                         type="submit"
                     >
                         Send

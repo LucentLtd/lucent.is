@@ -25,6 +25,10 @@
     /* font-style: bold; */
 }
 
+.header-link {
+    color: white !important;
+}
+
 .bg-lucent-blue {
     background-color: #1606fd;
 }
@@ -32,6 +36,11 @@
 a {
     color: #1606fd;
     text-decoration: underline;
+    font-weight: 200;
+}
+
+a:visited {
+    color: #a602cc;
 }
 
 p {
@@ -86,6 +95,18 @@ html {
 
 .header {
     background-image: linear-gradient(135deg, #e71897 0%, #3e4ba7 100%);
+}
+
+.submit-button {
+    background-image: linear-gradient(135deg, #e71897 0%, #3e4ba7 100%);
+}
+
+.submit-button:hover {
+    background-image: linear-gradient(135deg, #e71897 0%, #3e4ba7 85%);
+}
+
+.submit-button:active {
+    transform: translate(1px, 1px);
 }
 
 @media (max-width: 640px) {

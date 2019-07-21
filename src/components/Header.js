@@ -17,25 +17,25 @@ class Header extends React.Component {
                         </Link>
                         <nav className="flex justify-end">
                             <Link
-                                className="text-white no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
+                                className="header-link no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
                                 to="#mission"
                             >
                                 Mission
                             </Link>
                             <Link
-                                className="text-white no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
+                                className="header-link no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
                                 to="#values"
                             >
                                 Values
                             </Link>
                             <Link
-                                className="text-white no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
+                                className="header-link no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
                                 to="#people"
                             >
                                 People
                             </Link>
                             <Link
-                                className="text-white no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
+                                className="header-link no-underline font-light hover:underline mx-2 inline-block align-middle flex flex-col justify-center"
                                 to="#contact"
                             >
                                 Contact
