@@ -41,7 +41,7 @@ p {
 }
 
 h1 {
-    @apply text-4xl;
+    @apply text-3xl;
     /* @apply .font-medium; */
     @apply mt-3;
     @apply mb-2 !important;
