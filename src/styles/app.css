@@ -81,7 +81,7 @@ em {
 
 html {
     font-family: Bicyclette, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     color: #1A1A1A;
 }
 .site {
@@ -108,6 +108,10 @@ html {
 
 .submit-button:active {
     transform: translate(1px, 1px);
+}
+
+*:required {
+    box-shadow: none;
 }
 
 ::selection {

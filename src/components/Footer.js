@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
-import Image from "./Image";
+
+import logo from '../assets/images/lucent-logo-bk.png'
 
 class Header extends React.Component {
     render() {
         return (
-            <footer className="h-32 bg-gray-100 flex flex-col justify-center px-3" >
+            <footer className="h-24 flex flex-col justify-center px-3 mb-10" >
                 <Link className="mx-auto">
-                    <Image
+                    <img
                         className="w-32"
-                        src="lucent-logo-bk.png"
+                        src={logo}
                         to="/"
                     />
                 </Link>

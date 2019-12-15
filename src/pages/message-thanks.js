@@ -7,7 +7,6 @@ const MessageThanks = () => (
     <Layout>
         <h1>Thanks for the message!</h1>
         <p>We'll be in touch soon.</p>
-        <Link to="/">home</Link>
     </Layout>
 );
 

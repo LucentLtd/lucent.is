@@ -1,38 +1,39 @@
 import React from "react";
 import { Link } from "gatsby";
-import Image from "./Image";
+
+import logo from '../assets/images/logo-reverse.png'
 
 class Header extends React.Component {
     render() {
         return (
-            <header className="h-16 header flex flex-col justify-center text-white">
+            <header className="header flex flex-col justify-center text-white p-3">
                 <div className="container max-w-2xl mx-auto">
                     <div className="flex justify-between px-3">
                         <Link className="">
-                            <Image
-                                className="w-10"
-                                src="logo-reverse.png"
+                            <img
+                                className="w-8"
+                                src={logo}
                                 to="/"
                             />
                         </Link>
                         <nav className="flex justify-end">
                             <Link
                                 className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
-                                to="#mission"
-                            >
-                                Mission
-                            </Link>
-                            <Link
-                                className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
-                                to="#values"
-                            >
-                                Values
-                            </Link>
-                            <Link
-                                className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
-                                to="#people"
+                                to="#we-are-lucent"
                             >
                                 People
+                            </Link>
+                            <Link
+                                className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
+                                to="#our-work"
+                            >
+                                Work
+                            </Link>
+                            <Link
+                                className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
+                                to="#who-we-are"
+                            >
+                                About
                             </Link>
                             <Link
                                 className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"

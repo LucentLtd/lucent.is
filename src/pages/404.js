@@ -6,7 +6,6 @@ import { Link } from "gatsby";
 const NotFoundPage = () => (
     <Layout>
         <h1>Page Not Found</h1>
-        <Link to="/">home</Link>
     </Layout>
 );
 
