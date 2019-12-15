@@ -8,37 +8,44 @@ const Index = ({}) => {
     return (
         <Layout>
             <h1 className="visuallyhidden">Lucent Enterprises Ltd.</h1>
-            <h2 id="mission">Our Mission</h2>
+            <h2 id="about">We Are Lucent!</h2>
             <p>
-                Labore do anim in consectetur do magna proident ex culpa enim
-                reprehenderit aute officia elit. Aute laboris nisi duis elit
-                exercitation aliquip quis ullamco in ullamco. Aliqua fugiat esse
-                commodo cillum consectetur proident minim. Cupidatat officia
-                eiusmod qui nulla eiusmod in.
+                We are a collaborative marketer and product-minded software
+                creator duo who believe in making a positive impact with
+                whatever we do. Between the two of us, we have planned and
+                hosted large events, produced dance performances, run company
+                marketing efforts, led small engineering teams, and built
+                software products used by thousands of people.
             </p>
             <p>
-                Anim cillum ut qui officia. Labore consectetur reprehenderit qui
-                occaecat elit pariatur dolore aute adipisicing reprehenderit.
-                Minim ad ex irure minim aute nostrud incididunt officia sunt.
+                We want to give back to our community by participating in
+                community events, hiring and working with great people with
+                great ideas, and supporting local efforts to make our community
+                a better place.
             </p>
-            <h2 id="values">Our Values</h2>
+            <h2 id="work">Our Work</h2>
             <p>
-                Consequat dolore nisi in consectetur cupidatat. Laborum ea
-                aliqua consectetur qui sint quis reprehenderit eu incididunt ex
-                aliqua laboris. Velit elit eiusmod non fugiat ipsum veniam minim
-                dolore mollit nostrud ex dolor eu. Eiusmod est laborum tempor
-                exercitation dolore incididunt aliquip. Dolor est id nulla Lorem
-                nulla non exercitation. Fugiat ad voluptate irure dolor pariatur
-                consectetur aliquip.
+                Electra Productions is a dance production company founded by
+                Linley Faulkner and Jane Bull. The’ve produced multiple sold-out
+                dance performances in Victoria, BC that attracted performers
+                from across Canada and the United States.
             </p>
             <p>
-                Aliquip laborum nulla irure culpa eu proident nulla. Et et
-                fugiat elit reprehenderit. Amet amet laborum commodo sit. Sit
-                reprehenderit do veniam adipisicing aliquip commodo aliqua esse
-                nisi mollit nostrud. Eu exercitation cillum deserunt eiusmod
-                minim ullamco minim. Incididunt exercitation ex cillum officia
-                laborum aliqua minim. Ad enim laboris quis incididunt minim
-                commodo.
+                30 Hour Jobs is a job board and community for job seekers who
+                need or want to work less than 40 hours per week and employers
+                who support this. Nick created 30 Hour Jobs with the belief
+                that, while many people will work more than 30 hours per week,
+                the number of hours dedicated to an employer alone should be
+                less than it is currently. By reducing the expected time
+                commitment to employers, individuals will have more time to
+                raise their families, engage in their community, work on their
+                passions, and do great things.
+            </p>
+            <p>
+                Nick currently works primarily as a contract software developer
+                who is available to hire. He has experience creating scalable
+                web software solutions as well as creating cross-platform mobile
+                applications for Android and iOS.
             </p>
             <h2 id="people">Who We Are</h2>
             <h3>Linley Faulkner</h3>
@@ -65,23 +72,21 @@ const Index = ({}) => {
                     className="w-32 mt-1 ml-3 mb-3 rounded float-right shadow"
                     src="nick.jpg"
                 />
-                Sint anim ullamco irure sit magna aliqua laborum ut dolore.
-                Veniam veniam ut Lorem tempor mollit aute. Deserunt incididunt
-                do dolor adipisicing magna pariatur irure laboris sit excepteur
-                aute eu amet. Eu mollit cupidatat qui occaecat do eiusmod
-                consequat excepteur commodo. Deserunt culpa veniam minim sunt
-                cillum deserunt veniam. Sint nulla dolore non non ipsum
-                incididunt id duis laboris irure qui. Sunt sint elit minim culpa
-                quis ullamco culpa laborum dolore cillum sunt pariatur nisi. Do
-                tempor anim dolor anim Lorem laborum aute ullamco aute in.
-                Excepteur voluptate excepteur eu fugiat sint incididunt sint
-                Lorem sunt dolor velit sint.
+                Nick is an entrepreneur and product-minded software developer.
+                Previously, he was the co-founder of Servmetrics Ltd. which was
+                a software company whose product enabled restaurant owners to
+                engage their customers by SMS message after their meal. There,
+                he acted as CTO and Head of Software. Nick has experience
+                leading small engineering teams and has experience designing and
+                implemented software projects used by thousands of people.
+                Before working with technology, Nick worked with individuals
+                with Autism spectrum disorder to support them in daily life.
             </p>
             <h2 id="contact">Contact Us</h2>
             <p>
                 You can send us a text or leave a message toll-free at{" "}
-                <a href="tel:+18887607611">1-888-760-7611</a> or you can
-                contact us by email at{" "}
+                <a href="tel:+18887607611">1-888-760-7611</a> or you can contact
+                us by email at{" "}
                 <a href="mailto:info@lucent.is">info@lucent.is</a> or simply by
                 filling out the form below.
             </p>

@@ -19,21 +19,21 @@ class Header extends React.Component {
                         <nav className="flex justify-end">
                             <Link
                                 className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
-                                to="#we-are-lucent"
+                                to="#about"
                             >
-                                People
+                                About
                             </Link>
                             <Link
                                 className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
-                                to="#our-work"
+                                to="#work"
                             >
                                 Work
                             </Link>
                             <Link
                                 className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
-                                to="#who-we-are"
+                                to="#people"
                             >
-                                About
+                                People
                             </Link>
                             <Link
                                 className="header-link no-underline font-light hover:underline ml-2 inline-block align-middle flex flex-col justify-center"
