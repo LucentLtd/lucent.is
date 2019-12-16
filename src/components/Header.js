@@ -6,7 +6,7 @@ import logo from '../assets/images/logo-reverse.png'
 class Header extends React.Component {
     render() {
         return (
-            <header className="header flex flex-col justify-center text-white p-3">
+            <header className="header flex flex-col justify-center text-white py-2">
                 <div className="container max-w-2xl mx-auto">
                     <div className="flex justify-between px-3">
                         <Link className="">
